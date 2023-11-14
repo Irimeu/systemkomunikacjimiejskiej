@@ -5,7 +5,10 @@ public class Osoba {
 
     private int wiek;
     private String plec;
-    public Osoba(String stanowisko, int wiek, String plec) {
+    private String imie;
+
+    public Osoba(String imie, String stanowisko, int wiek, String plec) {
+        this.imie = imie;
         this.stanowisko = stanowisko;
         this.wiek = wiek;
         this.plec = plec;

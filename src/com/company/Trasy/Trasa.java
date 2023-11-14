@@ -14,7 +14,6 @@ public class Trasa {
         this.kierujacy = kierujacy;
         this.pojazd = pojazd;
     }
-
 }
 
 
